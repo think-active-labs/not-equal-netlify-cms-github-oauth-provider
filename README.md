@@ -7,7 +7,7 @@
 Github, Github Enterprise and Gitlab are currently supported, but as this is a general Oauth client, feel free to submit a PR to add other git hosting providers.
 
 Other implementations in: [Go lang](https://github.com/igk1972/netlify-cms-oauth-provider-go).
-
+ 
 ## 1) Install Locally
 
 **Install Repo Locally**
