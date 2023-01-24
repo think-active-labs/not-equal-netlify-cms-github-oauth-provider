@@ -47,7 +47,7 @@ OAUTH_PROVIDER=gitlab
 SCOPES=api
 OAUTH_AUTHORIZE_PATH=/oauth/authorize
 OAUTH_TOKEN_PATH=/oauth/token
-```
+``` 
 
 You can also setup an environment variable to configure "_blank" target when auth window is opened. Default is "_self".
 ```ini
