@@ -15,8 +15,8 @@ app.get('/callback', middleWarez.callback)
 app.get('/success', middleWarez.success)
 app.get('/', middleWarez.index)
 
-// app.listen(port, () => {
-//   console.log("gandalf is walkin' on port " + port)
-// })
+app.listen(port, () => {
+  console.log("gandalf is walkin' on port " + port)
+})
 
 module.exports = app
