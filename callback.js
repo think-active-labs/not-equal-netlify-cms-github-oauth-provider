@@ -43,7 +43,7 @@ module.exports = (oauth2, oauthProvider) => {
         function recieveMessage(e) {
           console.log("recieveMessage %o", e)
           if (!e.origin.match(${JSON.stringify(originPattern)})) {
-            console.log('Invalid origin: %s', e.origin, JSON.stringify(originPattern));
+            console.log('Invalid origin: %s', e.origin, ${JSON.stringify(originPattern)});
             return;
           }
           // send message to main window with da app
